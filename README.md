@@ -28,15 +28,14 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 
 Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
 
-
 # t3tutorial
-this tutorial follows the [youtube](https://www.youtube.com/watch?v=d5x0JCZbAJs&list=TLPQMTkwNDIwMjQTpaJ12pHyHQ&index=2) video by Theo on creating a fullstack app with t3 stack
 
+this tutorial follows the [youtube](https://www.youtube.com/watch?v=d5x0JCZbAJs&list=TLPQMTkwNDIwMjQTpaJ12pHyHQ&index=2) video by Theo on creating a fullstack app with t3 stack
 
 ## TODO
 
-- [ ] Make it deploy (vercel)
-- [ ] Scaffold basic ui with mock data
+- [x] Make it deploy (vercel)
+- [x] Scaffold basic ui with mock data
 - [ ] Actually setup database (w/ vercel postgres)
 - [ ] Attach DB to ui
 - [ ] Add auth (w/ clerk)
