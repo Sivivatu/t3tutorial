@@ -38,7 +38,7 @@ this tutorial follows the [youtube](https://www.youtube.com/watch?v=d5x0JCZbAJs&
 - [x] Scaffold basic ui with mock data
 - [x] Tidy up build process
 - [x] Actually setup database (w/ vercel postgres)
-- [ ] Attach DB to ui
+- [x] Attach DB to ui
 - [ ] Add auth (w/ clerk)
 - [ ] add image upload
 - [ ] error management (w/ sentry)
