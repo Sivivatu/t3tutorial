@@ -30,6 +30,8 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 
 # t3tutorial
+this tutorial follows the [youtube](https://www.youtube.com/watch?v=d5x0JCZbAJs&list=TLPQMTkwNDIwMjQTpaJ12pHyHQ&index=2) video by Theo on creating a fullstack app with t3 stack
+
 
 ## TODO
 
