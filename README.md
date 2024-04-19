@@ -42,8 +42,8 @@ this tutorial follows the [youtube](https://www.youtube.com/watch?v=d5x0JCZbAJs&
 - [x] Add auth (w/ clerk)
 - [x] add image upload
 - [x] taint (server only)
-- [ ] Use Next/Image component
-- [ ] error management (w/ sentry)
+- [x] Use Next/Image component
+- [x] error management (w/ sentry)
 - [ ] Routing/Image Page (parallel route)
 - [ ] Delete button (w/ server actions)
 - [ ] Analytics (posthog)
