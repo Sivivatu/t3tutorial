@@ -29,7 +29,7 @@ const config = withSentryConfig(
     // Suppresses source map uploading logs during build
     silent: true,
     org: "databard",
-    project: "javascript-nextjs",
+    project: "t3tutorial-demo",
   },
   {
     // For all available options, see:
