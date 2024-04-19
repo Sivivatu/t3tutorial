@@ -4,6 +4,7 @@
         "tailwindcss",
         "topnav",
         "trpc",
+        "Uploadthing",
         "upstash"
     ],
     "github.copilot.enable": {
