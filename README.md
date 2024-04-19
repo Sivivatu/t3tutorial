@@ -39,7 +39,7 @@ this tutorial follows the [youtube](https://www.youtube.com/watch?v=d5x0JCZbAJs&
 - [x] Tidy up build process
 - [x] Actually setup database (w/ vercel postgres)
 - [x] Attach DB to ui
-- [ ] Add auth (w/ clerk)
+- [x] Add auth (w/ clerk)
 - [ ] add image upload
 - [ ] error management (w/ sentry)
 - [ ] Routing/Image Page (parallel route)
