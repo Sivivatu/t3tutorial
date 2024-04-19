@@ -40,8 +40,8 @@ this tutorial follows the [youtube](https://www.youtube.com/watch?v=d5x0JCZbAJs&
 - [x] Actually setup database (w/ vercel postgres)
 - [x] Attach DB to ui
 - [x] Add auth (w/ clerk)
-- [ ] add image upload
-- [ ] taint (server only)
+- [x] add image upload
+- [x] taint (server only)
 - [ ] Use Next/Image component
 - [ ] error management (w/ sentry)
 - [ ] Routing/Image Page (parallel route)
