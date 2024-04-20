@@ -44,7 +44,7 @@ this tutorial follows the [youtube](https://www.youtube.com/watch?v=d5x0JCZbAJs&
 - [x] taint (server only)
 - [x] Use Next/Image component
 - [x] error management (w/ sentry)
-- [ ] Routing/Image Page (parallel route)
+- [x] Routing/Image Page (parallel route)
 - [ ] Delete button (w/ server actions)
 - [ ] Analytics (posthog)
 - [ ] Ratelimiting (upstash)
