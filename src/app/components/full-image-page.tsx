@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import { getImage } from "~/server/queries";
-import Image from "next/image";
 
 export default async function FullPageImageView(props: { id: number }) {
   const image = await getImage(props.id);
