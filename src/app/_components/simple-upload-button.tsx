@@ -50,18 +50,44 @@ function UploadSVG() {
   );
 }
 
+function LoadingSpinnerSVG() {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="white"
+    >
+      <circle cx="12" cy="12" r="3" />
+      <g className="spinner_HIK5">
+        <circle cx="4" cy="12" r="3" />
+        <circle cx="20" cy="12" r="3" />
+      </g>
+    </svg>
+  );
+}
+
 export function SimpleUploadButton() {
   const router = useRouter();
+
   const { inputProps } = useUploadThingInputProps("imageUploader", {
     onUploadBegin() {
-      toast("Uploading...", {
-        duration: 120000,
-        id: "upload-begin",
-      });
+      toast(
+        <div className="flex items-center gap-2 text-white">
+          <LoadingSpinnerSVG /> <span className="text-lg ">Uploading...</span>
+        </div>,
+        {
+          duration: 120000,
+          id: "upload-begin",
+        },
+      );
     },
     onClientUploadComplete() {
       toast.dismiss("upload-begin");
-      toast("Upload complete", { duration: 5000 });
+      toast(<span className="text-lg ">Upload complete</span>, {
+        duration: 5000,
+      });
       router.refresh();
     },
   });
