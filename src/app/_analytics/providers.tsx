@@ -20,6 +20,7 @@ export function CSPostHogProvider({ children }: { children: React.ReactNode }) {
 }
 
 function PostHogAuthWrapper({ children }: { children: React.ReactNode }) {
+  console.log(process.env.NEXT_PUBLIC_POSTHOG_KEY);
   const auth = useAuth();
   const userInfo = useUser();
 
