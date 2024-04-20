@@ -46,6 +46,7 @@ this tutorial follows the [youtube](https://www.youtube.com/watch?v=d5x0JCZbAJs&
 - [x] error management (w/ sentry)
 - [x] Routing/Image Page (parallel route)
 - [x] Add ShadUI (Initialisation - Toasts)
-- [ ] Delete button (w/ server actions)
+- [x] Updated update button to with spinner
 - [ ] Analytics (posthog)
+- [ ] Delete button (w/ server actions)
 - [ ] Ratelimiting (upstash)
