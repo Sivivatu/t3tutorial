@@ -2,11 +2,13 @@
     "cSpell.words": [
         "databard",
         "Ratelimiting",
+        "sonner",
         "tailwindcss",
         "topnav",
         "trpc",
         "Uploadthing",
-        "upstash"
+        "upstash",
+        "youtube"
     ],
     "github.copilot.enable": {
         "markdown": "true"
@@ -17,5 +19,6 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "cSpell.language": "en-GB"
 }
