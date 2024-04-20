@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { getImage } from "~/server/queries";
 import Image from "next/image";
 
@@ -5,15 +6,16 @@ export default async function FullPageImageView(props: { id: number }) {
   const image = await getImage(props.id);
 
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      <div className="flex-shrink flex-grow">
-        <Image
+    <div className="flex h-full w-full min-w-0 bg-green-500">
+      <div className="flex flex-shrink justify-center">
+        <img
           src={image.url}
           alt={image.name}
-          style={{ objectFit: "contain" }}
-          width={720}
-          height={720}
+          className="flex-shrink object-contain"
         />
+      </div>
+      <div className="flex w-48 flex-shrink-0 flex-col">
+        <div className="text-xl font-bold">{image.name}</div>
       </div>
     </div>
   );
