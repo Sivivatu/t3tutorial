@@ -50,4 +50,4 @@ this tutorial follows the [youtube](https://www.youtube.com/watch?v=d5x0JCZbAJs&
 - [ ] Analytics (posthog)
 - [x] Delete button (w/ server actions)
 - [x] Analytics for delete button (posthog)
-- [ ] Ratelimiting (upstash)
+- [x] Ratelimiting (upstash)

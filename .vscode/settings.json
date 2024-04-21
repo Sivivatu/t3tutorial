@@ -3,6 +3,7 @@
         "clsx",
         "databard",
         "lucide",
+        "Ratelimit",
         "Ratelimiting",
         "sonner",
         "tailwindcss",
