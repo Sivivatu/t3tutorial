@@ -1,4 +1,4 @@
-import { auth } from "@clerk/nextjs/server";
+import { auth, clerkClient } from "@clerk/nextjs/server";
 import { db } from "~/server/db";
 import { createUploadthing, type FileRouter } from "uploadthing/next";
 import { UploadThingError } from "uploadthing/server";
@@ -9,10 +9,14 @@ const f = createUploadthing();
 
 export const ourFileRouter = {
   imageUploader: f({ image: { maxFileSize: "4MB", maxFileCount: 5 } })
-    .middleware(async () => {
+    .middleware(async ({ req }) => {
       const user = auth();
 
-      if (!user) throw new UploadThingError("Unauthorized");
+      if (!user.userId) throw new UploadThingError("Unauthorized");
+
+      const fullUserData = await clerkClient.users.getUser(user.userId);
+      if (!fullUserData?.privateMetadata?.["can-upload"] !== true)
+        throw new UploadThingError("User cannot upload images");
       const { success } = await ratelimit.limit(user.userId);
       if (!success) throw new UploadThingError("Rate limited");
 
