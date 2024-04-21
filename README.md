@@ -49,5 +49,5 @@ this tutorial follows the [youtube](https://www.youtube.com/watch?v=d5x0JCZbAJs&
 - [x] Updated update button to with spinner
 - [ ] Analytics (posthog)
 - [x] Delete button (w/ server actions)
-- [ ] Analytics for delete button (posthog)
+- [x] Analytics for delete button (posthog)
 - [ ] Ratelimiting (upstash)
